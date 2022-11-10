@@ -7,7 +7,7 @@
     for (int i = 0; i < length; i++)
     {
         Console.Write($"Введите {i + 1} строку массива:    ");
-        array[i] = Console.ReadLine();
+        array[i] = Console.ReadLine()!;
         if (array[i] == "")
         {
             Console.WriteLine($"Вы не ввели значение {i + 1} строки");
